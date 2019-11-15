@@ -15,8 +15,7 @@ import java.sql.*;
 public class JdbcServlet extends HttpServlet {
 	private static final long serialVersionUID = 8229511817604046163L;
 	
-	
-	@Resource(name = "classimodels")
+	@Resource(name = "Derby Database")
 	private DataSource dataSource;
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)

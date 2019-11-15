@@ -1,8 +1,6 @@
-<resources>
-  <resource id="ClassicModels" type="DataSource">
-    JdbcDriver com.mysql.jdbc.Driver
-    JdbcUrl jdbc:mysql://localhost:3306/classicmodels
-    UserName root
-    Password Darwin1859
-  </resource>
-</resources>
+<Resource id="Derby Database" type="DataSource">
+    JdbcDriver org.apache.derby.jdbc.EmbeddedDriver
+    JdbcUrl jdbc:derby:derbyDB;create=true
+    UserName admin
+    Password pass
+</Resource>
