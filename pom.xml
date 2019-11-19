@@ -28,7 +28,7 @@
 			<plugin>
 				<groupId>org.apache.tomee.maven</groupId>
 				<artifactId>tomee-maven-plugin</artifactId>
-				<version>8.0.1-SNAPSHOT</version>
+				<version>8.0.0</version>
 				<configuration>
 					<libs>
 						<lib>org.apache.derby:derby:10.14.2.0</lib>
